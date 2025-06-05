@@ -14,7 +14,7 @@ public class Empleado extends PersonaInstitucional{
     
     //metodos
 
-    public Empleado(double Sueldo, String correoInstitucional, int id, String nombre, String correoPersonal, String cedula) {
+    public Empleado(double sueldo, String correoInstitucional, int id, String nombre, String correoPersonal, String cedula) {
         super(correoInstitucional, id, nombre, correoPersonal, cedula);
         this.sueldo = sueldo;
     }
