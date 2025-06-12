@@ -2,16 +2,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.sistemaacademico.decanoo;
+package com.mycompany.sistemaacademico.decanos;
 
-import com.mycompany.sistemaacademico.PersonalAcademico.PersonalAcademicoo;
+import com.mycompany.sistemaacademico.personalacademicos.PersonalAcademico;
 
 
 /**
  *
  * @author User
  */
-public abstract class Decano extends PersonalAcademicoo{
+public abstract class Decano extends PersonalAcademico{
     private String nivel;
 
     public Decano(String nivel, String dedicacion, double sueldo, String correoInstitucional, int id, String nombre, String correoPersonal, String cedula) {

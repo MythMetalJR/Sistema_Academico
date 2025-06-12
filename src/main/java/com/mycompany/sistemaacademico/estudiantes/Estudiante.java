@@ -2,13 +2,15 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.sistemaacademico;
+package com.mycompany.sistemaacademico.estudiantes;
+
+import com.mycompany.sistemaacademico.personasinstitucionales.PersonaInstitucional;
 
 /**
  *
  * @author User
  */
-public class Estudiante extends PersonaInstitucional{
+public abstract class Estudiante extends PersonaInstitucional{
     //atributos
     private int codigo;
     
@@ -36,5 +38,7 @@ public class Estudiante extends PersonaInstitucional{
     public String toString() {
         return "Estudiante{" + "codigo: " + codigo + super.toString()+ '}';
     }
+
+
     
 }

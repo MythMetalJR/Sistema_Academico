@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.sistemaacademico.PersonasExternas;
-import com.mycompany.sistemaacademico.personaa.Persona;
+import com.mycompany.sistemaacademico.personas.Persona;
 /**
  *
  * @author User
