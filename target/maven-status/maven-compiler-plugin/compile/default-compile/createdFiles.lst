@@ -1,6 +1,8 @@
 com\mycompany\sistemaacademico\Clases\Persona.class
 com\mycompany\sistemaacademico\Clases\PersonaInstitucional.class
+com\mycompany\sistemaacademico\Clases\Estudiante.class
 com\mycompany\sistemaacademico\Clases\Empleado.class
 com\mycompany\sistemaacademico\SistemaAcademico.class
-com\mycompany\sistemaacademico\Clases\Estudiante.class
+com\mycompany\sistemaacademico\Clases\PersonalAcademico.class
 com\mycompany\sistemaacademico\Clases\PersonaInvitado.class
+com\mycompany\sistemaacademico\Clases\PersonalServicios.class

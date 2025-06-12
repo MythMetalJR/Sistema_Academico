@@ -2,7 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.sistemaacademico.Clases;
+package com.mycompany.sistemaacademico;
+
+import com.mycompany.sistemaacademico.personaa.Persona;
 
 /**
  *
@@ -34,5 +36,7 @@ public class PersonaInstitucional extends Persona{
     public String toString() {
         return "PersonaInstitucional{" + "correoInstitucional: " + correoInstitucional + super.toString()+ '}';
     }
-    
+    public boolean verificarCedula(){
+        return true;
+    }
 }

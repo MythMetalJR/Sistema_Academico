@@ -2,19 +2,19 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.sistemaacademico.Clases;
+package com.mycompany.sistemaacademico.Trabajador;
+
+import com.mycompany.sistemaacademico.Empleado;
 
 /**
  *
  * @author User
  */
-public class PersonalServicios extends Empleado{
-    //atributos
-    private String gremio;
+public abstract class Trabajadores extends Empleado{
     
-    //metodos
+    private String gremio;
 
-    public PersonalServicios(String gremio, double sueldo, String correoInstitucional, int id, String nombre, String correoPersonal, String cedula) {
+    public Trabajadores(String gremio, double sueldo, String correoInstitucional, int id, String nombre, String correoPersonal, String cedula) {
         super(sueldo, correoInstitucional, id, nombre, correoPersonal, cedula);
         this.gremio = gremio;
     }
@@ -26,14 +26,16 @@ public class PersonalServicios extends Empleado{
     public void setGremio(String gremio) {
         this.gremio = gremio;
     }
-    public String agregarEstudiante(){
-        return "";
-    }
 
     @Override
     public String toString() {
-        return "PersonalServicios{" + "gremio: " + gremio + '}';
+        return "Trabajadores{" + "gremio=" + gremio + '}';
     }
+    
+    
+    
+    
+    
     
     
 }

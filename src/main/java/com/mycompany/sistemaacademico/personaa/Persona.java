@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.sistemaacademico.Clases;
+package com.mycompany.sistemaacademico.personaa;
 
 /**
  *
  * @author User
  */
-public class Persona {
+public abstract class Persona {
     private int id;
     private String nombre;
     private String correoPersonal;
@@ -21,45 +21,12 @@ public class Persona {
         this.correoPersonal = correoPersonal;
         this.cedula = cedula;
     }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public String getCorreoPersonal() {
-        return correoPersonal;
-    }
-
-    public void setCorreoPersonal(String correoPersonal) {
-        this.correoPersonal = correoPersonal;
-    }
-
-    public String getCedula() {
-        return cedula;
-    }
-
-    public void setCedula(String cedula) {
-        this.cedula = cedula;
-    }
-    public String agregarPersona(){
-    return "";
-    }
-
+    
+   abstract boolean verificarCedula();
+    
     @Override
     public String toString() {
         return "Persona{" + "id: " + id + ", nombre: " + nombre + ", correoPersonal: " + correoPersonal + ", cedula: " + cedula + '}';
     }
-    
+    abstract boolean verificarCedeula();
 }
